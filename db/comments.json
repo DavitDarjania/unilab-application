@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Alex M.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4.5
+    },
+    {
+      "name": "Jordan T.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4
+    },
+    {
+      "name": "Casey L.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4.5
+    },
+    {
+      "name": "Taylor R.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 5
+    },
+    {
+      "name": "Morgan S.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4.5
+    },
+    {
+      "name": "Drew K.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4
+    },
+    {
+      "name": "Riley B.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4.5
+    },
+    {
+      "name": "Jamie C.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 5
+    },
+    {
+      "name": "Cameron D.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 4
+    },
+    {
+      "name": "Skyler J.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
+      "stars": 5
+    }
+]
+  

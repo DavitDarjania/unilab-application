@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- sign up ad start -->
+    <div class="sign-up-advertise">
+        <p class="advertise_text fs-14-1330B">Sign up and get 20% off to you first order. <a class="fs-14-1330B" href="">Sign Up Now</a></p>
+        <img class="close_advertise d-none-1330B" src="./assets/icons/close.svg" alt="">
+    </div>
+    <!-- sign up ad end -->
+    <!-- header navbar start -->
+    <header class="position-relative">
+        <div class="main_link">
+            <img class="hamburger" src="./assets/icons/hamburger.svg" alt="">
+            <a href="index.html">SHOP.CO</a>
+        </div>
+        <nav class="d-none-1330B">
+            <ul>
+                <li class="position-relative shop-after">
+                    <a href="./pages/shop.html">Shop</a> <img src="./assets/icons/dropdown.png" alt="">
+                    <ul class="hidden-dropdown">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">About Company</a></li>
+                        <li><a href="">Payment Gateway</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+                <li><a href="">On Sale</a></li>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Brands</a></li>
+            </ul>
+        </nav>
+        <div class="form-box d-none-1330B">
+            <img src="./assets/icons/search.png" alt="search-icon">
+            <form action="">
+                <input type="search" placeholder="Search for products...">
+            </form>
+        </div>
+        <div class="icons-box">
+            <img class="hidden-icon d-block-1330B" src="./assets/icons/black-search.svg" alt="">
+            <img onclick="location.href='./pages/shop.html'" src="./assets/icons/cart.svg" alt="">
+            <img onclick="location.href='./pages/shop.html'" src="./assets/icons/profile.svg" alt="">
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu position-absolute">
+            <img class="close_menu" src="./assets/icons/Close-black.svg" alt="">           
+            <nav class="modal-nav">
+                <h2 class="nav_title">Home</h2>
+                <ul class="menu">
+                    <li>
+                      About
+                    </li>
+                    <li>
+                      Services <img style="margin-left: 7px;" src="./assets/icons/gray-dropdown.svg" alt="">
+                      <ul class="submenu">
+                        <li>Services 1</li>
+                        <li>Services 2</li>
+                        <li>Services 3</li>
+                      </ul>
+                    </li>
+                    <li>
+                        Shop <img style="margin-left: 7px;"  src="./assets/icons/gray-dropdown.svg" alt="">
+                        <ul class="submenu">
+                          <li>Privacy Policy</li>
+                          <li>About Company</li>
+                          <li>Payment Gateway</li>
+                          <li>Terms & Conditions</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Testimonials
+                    </li>
+                  </ul>
+                  
+            </nav>
+            <button class="sign-up_btn">Sign Up Now</button>
+        </div>
+    </header>
+    <!-- header navbar end -->
+    <!-- Find Clothes section start -->
+    <section class="hero-section flex-column-1330B w-100">
+        <img class="position-absolute small-diamond d-none-1330B" src="./assets/icons/diamond.svg" alt="">
+        <img class="bigger-diamond position-absolute d-none-1330B" src="./assets/icons/bigger-diamond.svg" alt="">
+        <img src="" alt="">
+        <img class="responsive-small position-absolute d-none-1330A" src="./assets/icons/responsive-smalldiamond.svg" alt="">
+        <img class="responsive-big position-absolute d-none-1330A" src="./assets/icons/responsive-big-diamond.svg" alt="">
+        <div class="hero-text-number">
+            <div class="hero-text_content">
+                <h1 class="position-relative">FIND CLOTHES THAT MATCHES YOU STYLE</h1>
+                <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <button class="same_button shop-now-button">
+                    Shop Now
+                </button>
+            </div>
+            <div class="hero-number-content position-relative d-flex">
+                <div class="content-box">
+                    <h2>200+</h2>
+                    <p>International Brands</p>
+                </div>
+                <div class="content-box">
+                    <h2>2000+</h2>
+                    <p>High-Quality Products</p>
+                </div>
+                <div class="content-box">
+                    <h2>30,000+</h2>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo_content">
+            <img src="./assets/images/main-section-photo.jpg" alt="">
+        </div>
+    </section>
+    <div class="moving-ad d-flex">
+        <div id="ad-carousel" class="owl-carousel owl-theme">
+            <div class="item"><img src="./assets/icons/versace.svg" alt=""></div>
+            <div class="item"><img src="./assets/icons/zara.svg" alt=""></div>
+            <div class="item"><img src="./assets/icons/gucci.svg" alt=""></div>
+            <div class="item"><img src="./assets/icons/prada.svg" alt=""></div>
+            <div class="item"><img src="./assets/icons/calvin-klein.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- All sections Before Footer -->
+    <section class="whole-section">
+        <!-- new arrivals and top sellings section -->
+        <section class="new-arrivals-section">
+            <h2 class="arrivals_title">NEW ARRIVALS</h2>
+            <div class="arrival-cards-box">
+                <!-- <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                    <h6>T-shirt with Tame Details</h6>
+                    <div class="star-box">
+                        <p>★★★★<span class="half-star">★</span>
+                            <span class="star-count">4.5/5</span>
+                        </p>
+                    </div>
+                    <div class="price-box d-flex">
+                        <h3 class="arrival_price">$120</h3>
+                        <h3 class="real_price">$200</h3>
+                        <div class="sale-amount">
+                            -20%
+                        </div>
+                    </div>
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div> -->
+            </div>
+            <button class="view_button" onclick="location.href='./pages/shop.html'">View All</button>
+            <hr>
+            <h2 class="arrivals_title">Top Selling</h2>
+            <div class="topSelling-cards-box">
+                <!-- <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                    <h6>T-shirt with Tame Details</h6>
+                    <div class="star-box">
+                        <p>★★★★<span class="half-star">★</span>
+                            <span class="star-count">4.5/5</span>
+                        </p>
+                    </div>
+                    <div class="price-box d-flex">
+                        <h3 class="arrival_price">$120</h3>
+                        <h3 class="real_price">$200</h3>
+                        <div class="sale-amount">
+                            -20%
+                        </div>
+                    </div>
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div>
+                <div class="same-card">
+                    <img src="./assets/images/image 1.png" alt="">
+                </div> -->
+            </div>
+            <button class="view_button" onclick="location.href='./pages/shop.html'">View All</button>
+        </section>
+
+        <!-- Browse by dress style section -->
+        <section class="browse-section">
+            <div class="browse-box">
+                <h2 class="arrivals_title">BROWSE BY DRESS STYLE</h2>
+                <div class="casual-formal-styles d-flex">
+                    <div class="casual-image1 position-relative">
+                        <h2 class="same-casual-title position-absolute">Casual</h2>
+                        <img src="./assets/images/browse-img-1.png" alt=""></div>
+                    <div class="formal-image1 position-relative">
+                        <h2 class="same-casual-title position-absolute">Formal</h2>
+                        <img src="./assets/images/browse-img-2.png" alt=""></div>
+                    <div class="formal-image2 position-relative">
+                        <h2 class="same-casual-title position-absolute">Party</h2>
+                        <img src="./assets/images/browse-img-3.png" alt="">
+                    </div>
+                    <div class="casual-image2 position-relative">
+                        <h2 class="same-casual-title position-absolute">Gym</h2>
+                        <img src="./assets/images/browse-img-4.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div class="comments-carousel">
+        <h3 class="arrivals_title">OUR HAPPY CUSTOMERS</h3>
+        <div id="comments-owl" class="owl-carousel owl-theme">
+            <!-- <div class="item">
+                <div class="star-box">
+                    <p>★★★★★<span class="half-star">★</span>
+                    </p>
+                </div>
+                <div class="name-and-approval d-flex">
+                    <h3 class="element_name">Sarah M.</h3>
+                    <img src="./assets/icons/approve.svg" alt="">
+                </div>
+                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem expedita vitae eligendi illo ipsum fugiat quidem dolorem vero, laudantium molestias "</p>
+            </div>         -->
+        </div>
+    </div>
+    <section class="newsletter-section d-flex position-relative">
+        <h2>STAY UPTO DATE ABOUT <br> OUR LATEST OFFERS</h2>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address">
+          <button class="view_button" type="submit">Subscribe to Newsletter</button>
+        </form>
+      </section>
+    <!-- News letter section End -->
+
+    <footer>
+        <div class=" main-footer_section">
+            <!-- Logo and Description Section -->
+            <div class="footer_sub_section logo_section">
+                <a id="logo" href="./index.html">SHOP.CO</a>
+                <p>We have clothes that suit your style and <br> which you're proud to wear. From <br> women to men</p>
+                <div class="social-icons d-flex">
+                    <img src="./assets/icons/twitter.png" alt="Twitter">
+                    <img src="./assets/icons/facebook.png" alt="Facebook">
+                    <img src="./assets/icons/instagram.png" alt="Instagram">
+                    <img src="./assets/icons/github.png" alt="Facebook Again">
+                </div>
+            </div>
+    
+             <div class="d-flex two_sub_section_box">
+                <!-- Company Section -->
+                <div class="footer_sub_section">
+                    <p class="title">COMPANY</p>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Works</a></li>
+                        <li><a href="">Career</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Help Section -->
+                <div class="footer_sub_section">
+                    <p class="title">HELP</p>
+                    <ul>
+                        <li><a href="">Customer Support</a></li>
+                        <li><a href="">Delivery Details</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+             </div>
+
+             <div class="d-flex two_sub_section_box">
+                <!-- FAQ Section -->
+                <div class="footer_sub_section">
+                    <p class="title">FAQ</p>
+                    <ul>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Manage Deliveries</a></li>
+                        <li><a href="">Orders</a></li>
+                        <li><a href="">Payments</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Resources Section -->
+                <div class="footer_sub_section">
+                    <p class="title">RESOURCES</p>
+                    <ul>
+                        <li><a href="">Free eBooks</a></li>
+                        <li><a href="">Development Tutorial</a></li>
+                        <li><a href="">How to - Blog</a></li>
+                        <li><a href="">Youtube Playlist</a></li>
+                    </ul>
+                </div>
+             </div>
+    
+            
+        </div>
+        <div class="secondary-footer_section">
+            <p>Shop.co @2000-2023, All Rights Reserved</p>
+            <div class="card-icons d-flex">
+                <img src="./assets/icons/visa.svg" alt="" >
+                <img src="./assets/icons/master.svg" alt="">
+                <img src="./assets/icons/paypal.svg" alt="" >
+                <img src="./assets/icons/applepay.svg" alt="" >
+                <img src="./assets/icons/googlepay.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('#ad-carousel').owlCarousel({
+            loop:true,
+            margin:50,
+            dots: false,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 1500,
+            smartSpeed: 1500,
+            slideTransition: 'linear',
+            responsive:{
+                0:{
+                    items:3
+                },
+                600:{
+                    items:5
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+    <script>
+        $('#comments-owl').owlCarousel({
+            loop:true,
+            margin:20,
+            // center: true,
+            // autoplay: true,
+            // autoplayTimeout: 5000,
+            // smartSpeed: 2500,
+            dots: false,
+            merge: true,
+            nav:true,
+            navText: ["←", "→"],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:3.6,
+                    center: true
+                }
+            }
+})
+    </script>
+</body>
+</html>

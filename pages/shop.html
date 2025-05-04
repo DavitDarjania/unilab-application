@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <!-- sign up ad start -->
+    <div class="sign-up-advertise">
+        <p class="advertise_text fs-14-1330B">Sign up and get 20% off to you first order. <a class="fs-14-1330B" href="">Sign Up Now</a></p>
+        <img class="close_advertise d-none-1330B" src="../assets/icons/close.svg" alt="">
+    </div>
+    <!-- sign up ad end -->
+    <!-- header navbar start -->
+    <header class="position-relative">
+        <div class="main_link">
+            <img class="hamburger" src="../assets/icons/hamburger.svg" alt="">
+            <a href="../index.html">SHOP.CO</a>
+        </div>
+        <nav class="d-none-1330B">
+            <ul>
+                <li class="position-relative shop-after">
+                    <a href="">Shop</a> <img src="../assets/icons/dropdown.png" alt="">
+                    <ul class="hidden-dropdown">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">About Company</a></li>
+                        <li><a href="">Payment Gateway</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+                <li><a href="">On Sale</a></li>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Brands</a></li>
+            </ul>
+        </nav>
+        <div class="form-box d-none-1330B">
+            <img src="../assets/icons/search.png" alt="search-icon">
+            <form action="">
+                <input type="search" placeholder="Search for products...">
+            </form>
+        </div>
+        <div class="icons-box">
+            <img class="hidden-icon d-block-1330B" src="../assets/icons/black-search.svg" alt="">
+            <img src="../assets/icons/cart.svg" alt="">
+            <img src="../assets/icons/profile.svg" alt="">
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu position-absolute">
+            <img class="close_menu" src="../assets/icons/Close-black.svg" alt="">           
+            <nav class="modal-nav">
+                <h2 class="nav_title">Home</h2>
+                <ul class="menu">
+                    <li>
+                      About
+                    </li>
+                    <li>
+                      Services <img style="margin-left: 7px;" src="../assets/icons/gray-dropdown.svg" alt="">
+                      <ul class="submenu">
+                        <li>Services 1</li>
+                        <li>Services 2</li>
+                        <li>Services 3</li>
+                      </ul>
+                    </li>
+                    <li>
+                        Shop <img style="margin-left: 7px;"  src="../assets/icons/gray-dropdown.svg" alt="">
+                        <ul class="submenu">
+                          <li>Privacy Policy</li>
+                          <li>About Company</li>
+                          <li>Payment Gateway</li>
+                          <li>Terms & Conditions</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Testimonials
+                    </li>
+                  </ul>
+                  
+            </nav>
+            <button class="sign-up_btn">Sign Up Now</button>
+        </div>
+    </header>
+    <!-- header navbar end -->
+    <section class="shop-section">
+        <hr>
+        <p class="shop-path">Home > Casual</p>
+
+        <div class="filter-box">
+            <div class="filter-title-icon d-flex w-100">
+                <h4>Filters</h4>
+                <img src="../assets/icons/Filter-icon.svg" alt="">
+            </div>
+            <hr>
+            <div class="hoodie-jeans-box">
+                <div class="hoodie_same">
+                    <p class="hoodie_text">T-shirts</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Shorts</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Shirts</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Hoodie</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Jeans</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="filter-title-icon d-flex w-100">
+                <h4>Price</h4>
+                <img style="transform: rotate(-90deg);" src="../assets/icons/right-arrow.svg" alt="">
+            </div>
+            <div class="range_container">
+                <div class="sliders_control">
+                    <input id="fromSlider" type="range" value="10" min="0" max="200"/>
+                    <input id="toSlider" type="range" value="40" min="0" max="200"/>
+                </div>
+                <div class="form_control">
+                    <div class="form_control_container">
+                        <!-- <div class="form_control_container__time">Min</div> -->
+                        <input class="form_control_container__time__input" type="number" id="fromInput" value="10" min="0" max="200"/>
+                    </div>
+                    <div class="form_control_container">
+                        <!-- <div class="form_control_container__time">Max</div> -->
+                        <input class="form_control_container__time__input" type="number" id="toInput" value="40" min="0" max="200"/>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="filter-title-icon d-flex w-100">
+                <h4>Colors</h4>
+                <img style="transform: rotate(-90deg);" src="../assets/icons/right-arrow.svg" alt="">
+            </div>
+            <div class="colors-box">
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+                <div class="different-colors"></div>
+            </div>
+            <hr>
+            <div class="filter-title-icon d-flex w-100">
+                <h4>Size</h4>
+                <img style="transform: rotate(-90deg);" src="../assets/icons/right-arrow.svg" alt="">
+            </div>
+            <div class="sizes-box d-flex">
+                <div>XX-Small</div>
+                <div>X-Small</div>
+                <div>Small</div>
+                <div>Medium</div>
+                <div>Large</div>
+                <div>X-Large</div>
+                <div>XX-Large</div>
+                <div>3X-Large</div>
+                <div>4X-Large</div>
+            </div>
+
+            <hr>
+
+            <div class="filter-title-icon d-flex w-100">
+                <h4>Dress Style</h4>
+                <img style="transform: rotate(-90deg);" src="../assets/icons/right-arrow.svg" alt="">
+            </div>     
+            <div class="hoodie-jeans-box">
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Casual</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Formal</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Party</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <div class="hoodie_same">
+                    <p class="hoodie_text">Gym</p>
+                    <img class="hoodie_arrow" src="../assets/icons/right-arrow.svg" alt="">
+                </div>
+                <button class="same_button">Apply Filter</button>
+            </div>       
+        </div>
+    </section>
+
+
+    <script src="../scripts/app.js"></script>
+</body>
+</html>

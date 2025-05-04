@@ -1,0 +1,65 @@
+[
+    {
+        "image" : "./assets/images/image 1.png",
+        "title" : "Gradient Graphic T-shirt",
+        "stars": 3.5,
+        "price": 145,
+        "sale": 0
+    },
+    {
+        "image" : "./assets/images/image 2.png",
+        "title" : "Polo with Tipping Details",
+        "stars": 4.5,
+        "price": 180,
+        "sale": 0
+    },
+    {
+        "image" : "./assets/images/image 3.png",
+        "title" : "Black Striped T-shirt",
+        "stars": 5,
+        "price": 150,
+        "sale": 30
+    },
+    {
+        "image" : "./assets/images/image 4.png",
+        "title" : "Skinny Fit Jeans",
+        "stars": 3.5,
+        "price": 240,
+        "sale": 20
+    },
+    {
+        "image" : "./assets/images/image 5.png",
+        "title" : "Checkered Shirt",
+        "stars": 4.5,
+        "price": 180,
+        "sale": 0
+    },
+    {
+        "image" : "./assets/images/image 6.png",
+        "title" : "Sleeve Striped T-Shirt",
+        "stars": 4.5,
+        "price": 160,
+        "sale": 30
+    },
+    {
+        "image" : "./assets/images/image 7.png",
+        "title" : "Vertical Striped Shirt",
+        "stars": 5,
+        "price": 232,
+        "sale": 20
+    },
+    {
+        "image" : "./assets/images/image 8.png",
+        "title" : "Courage Graphic T-Shirt",
+        "stars": 4,
+        "price": 145,
+        "sale": 0
+    },
+    {
+        "image" : "./assets/images/image 9.png",
+        "title" : "Loose Fit Bermuda Shorts",
+        "stars": 3,
+        "price": 80,
+        "sale": 0
+    }
+]

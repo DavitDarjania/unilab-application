@@ -1,0 +1,4 @@
+width: 278px;
+border: 2px red solid;
+flex-wrap: wrap;
+justify-content: center;
